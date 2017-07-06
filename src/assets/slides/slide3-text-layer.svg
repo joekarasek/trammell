@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="599px" height="288px" viewBox="0 0 599 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>slide3-text-layer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="RobotoCondensed-BoldItalic, Roboto Condensed" font-size="69" font-style="italic" font-weight="bold" line-spacing="71">
+            <tspan x="56" y="169" fill="#008CD9">Can’t get much </tspan>
+            <tspan x="56" y="240" fill="#0081D4">      better than that!”</tspan>
+        </text>
+        <filter x="-1.3%" y="-3.5%" width="103.0%" height="109.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="17.1741512 25.5 6.61676405 30.7532889 8.63304557 19.6266445 0.091939987 11.7467111 11.8954576 10.1233555 17.1741512 0 22.4528447 10.1233555 34.2563623 11.7467111 25.7152567 19.6266445 27.7315383 30.7532889"></polygon>
+        <filter x="-20.5%" y="-16.3%" width="141.0%" height="145.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="56.6890106 25.5 46.1316235 30.7532889 48.147905 19.6266445 39.6067994 11.7467111 51.410317 10.1233555 56.6890106 0 61.9677041 10.1233555 73.7712218 11.7467111 65.2301162 19.6266445 67.2463977 30.7532889"></polygon>
+        <filter x="-20.5%" y="-16.3%" width="141.0%" height="145.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-7" points="96.80258 25.5 86.2451929 30.7532889 88.2614744 19.6266445 79.7203689 11.7467111 91.5238865 10.1233555 96.80258 0 102.081274 10.1233555 113.884791 11.7467111 105.343686 19.6266445 107.359967 30.7532889"></polygon>
+        <filter x="-20.5%" y="-16.3%" width="141.0%" height="145.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-9" points="136.916149 25.5 126.358762 30.7532889 128.375044 19.6266445 119.833938 11.7467111 131.637456 10.1233555 136.916149 0 142.194843 10.1233555 153.998361 11.7467111 145.457255 19.6266445 147.473537 30.7532889"></polygon>
+        <filter x="-20.5%" y="-16.3%" width="141.0%" height="145.5%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-11" points="178.825849 25.5 168.268462 30.7532889 170.284743 19.6266445 161.743638 11.7467111 173.547155 10.1233555 178.825849 0 184.104542 10.1233555 195.90806 11.7467111 187.366954 19.6266445 189.383236 30.7532889"></polygon>
+        <filter x="-20.5%" y="-16.3%" width="141.0%" height="145.5%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-747.000000, -175.000000)">
+            <g id="Slide-3" transform="translate(0.000000, 99.000000)">
+                <g id="slide3-text-layer" transform="translate(746.000000, 66.000000)">
+                    <text id="“Chalet-Dental-will" font-family="Lato-Regular, Lato" font-size="35" font-weight="normal" fill="#173062">
+                        <tspan x="0" y="35">“</tspan>
+                        <tspan x="12.7925" y="35" font-family="Lato-Bold, Lato" font-size="46" font-weight="bold">Chalet Dental</tspan>
+                        <tspan x="294.1745" y="35"> </tspan>
+                        <tspan x="303.1345" y="35" font-size="25">will treat you with</tspan>
+                        <tspan x="501.972" y="35" font-size="33"> </tspan>
+                        <tspan x="0" y="90">       professionalism and kindness…</tspan>
+                    </text>
+                    <text id="--Randy" font-family="Lato-Bold, Lato" font-size="33" font-weight="bold" fill="#183163">
+                        <tspan x="470" y="292">- </tspan>
+                        <tspan x="490.328" y="292" font-family="Lato-Regular, Lato" font-weight="normal">Randy</tspan>
+                    </text>
+                    <g id="Can’t-get-much-bette" fill-opacity="1" fill="#008CD9">
+                        <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                        <use xlink:href="#text-1"></use>
+                    </g>
+                    <g id="Stars" transform="translate(259.000000, 259.000000)">
+                        <g id="Star">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFD900" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="Star">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#FFD900" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Star">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            <use fill="#FFDA00" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        </g>
+                        <g id="Star">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                            <use fill="#FFD900" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        </g>
+                        <g id="Star">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                            <use fill="#FFD900" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

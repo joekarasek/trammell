@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="571px" height="233px" viewBox="0 0 571 233" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>slide1-text-layer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="RobotoCondensed-BoldItalic, Roboto Condensed" font-size="82.8" font-style="italic" font-weight="bold" line-spacing="85.2">
+            <tspan x="0" y="87" fill="#008CD9">The Right Dentists</tspan>
+            <tspan x="0" y="172.2" fill="#183163">    For Your Family</tspan>
+        </text>
+        <filter x="-1.5%" y="-3.8%" width="102.9%" height="109.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-810.000000, -228.000000)">
+            <g id="Slide-1" transform="translate(0.000000, 99.000000)">
+                <g id="slide1-text-layer" transform="translate(803.000000, 117.000000)">
+                    <g id="The-Right-Dentists-F" fill-opacity="1" fill="#008CD9">
+                        <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                        <use xlink:href="#text-1"></use>
+                    </g>
+                    <text id="Now-Welcoming-New-Pa" font-family="Lato-Regular, Lato" font-size="35" font-weight="normal" fill="#173062">
+                        <tspan x="94" y="238">Now Welcoming New Patients</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

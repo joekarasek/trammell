@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="668px" height="225px" viewBox="0 0 668 225" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>slide2-text-layer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="RobotoCondensed-BoldItalic, Roboto Condensed" font-size="82.8" font-style="italic" font-weight="bold" line-spacing="85.2">
+            <tspan x="0" y="107.976566" fill="#008CD9">Get the </tspan>
+            <tspan x="232.332615" y="87" font-size="102.800003" fill="#008CD9">SMILE</tspan>
+            <tspan x="540.632234" y="112.619534" fill="#008CD9"></tspan>
+            <tspan x="7.33593563" y="197.819534" font-size="70.8000031" fill="#183163">  You’ve Always Wanted…</tspan>
+        </text>
+        <filter x="-1.3%" y="-12.0%" width="102.5%" height="118.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-684.000000, -199.000000)">
+            <g id="Slide-2" transform="translate(0.000000, 99.000000)">
+                <g id="slide2-text-layer" transform="translate(681.000000, 92.000000)">
+                    <g id="Get-the-SMILE-You’ve" fill-opacity="1" fill="#008CD9">
+                        <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                        <use xlink:href="#text-1"></use>
+                    </g>
+                    <text id="…with-Cosmetic-Denti" font-family="Lato-Regular, Lato" font-size="35" font-weight="normal" fill="#173062">
+                        <tspan x="261" y="227">…with Cosmetic Dentistry</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
