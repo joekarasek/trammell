@@ -29,6 +29,10 @@
     }
   }
 
+  .btn {
+    margin-top: 45px;
+  }
+
   .slide1 {
     //.slide__title {
     //  color: #2c2340;
@@ -50,13 +54,13 @@
     //
     //  @include font-size(95px, 76px);
     //}
+    text-align: right;
 
     .slide__copy {
-      color: #1e5879;
-      font-style: italic;
+      color: #183163;
       padding-top: 40px;
       line-height: 1;
-      font-weight: 600;
+      font-family: $ff-lato;
 
       @include font-size(36px, 32px, 28px, 26px, 24px);
     }
