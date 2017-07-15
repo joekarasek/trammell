@@ -5,7 +5,7 @@
 ----------------------------------------------------------------- */
 
 body {
-  font-family: $ff-open;
+  font-family: $ff-lato;
   color: $c-black;
   line-height: 1;
 }
@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: $ff-open;
+  font-family: $ff-roboto-condensed;
   font-weight: 400;
   letter-spacing: -1.5px;
 }
@@ -92,8 +92,6 @@ h1 {
 
 .h2,
 h2 {
-  font-style: italic;
-  font-weight: 700;
   text-transform: none;
 
   @include h2();
@@ -127,7 +125,7 @@ h4 {
   font-weight: 400;
 
   @include headings();
-  @include font-size(23px, 22px, 21px, 20px, 19px);
+  @include font-size(24px, 23px, 23px, 24px, 23px);
 }
 
 .h5,
@@ -139,7 +137,7 @@ h5 {
   font-weight: 400;
 
   @include headings();
-  @include font-size(19px, 19px, 18px, 18px, 18px);
+  @include font-size(22px, 21px, 21px, 22px, 21px);
 }
 
 .h6,
