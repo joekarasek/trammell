@@ -1,5 +1,5 @@
 #section-specials {
-  background-image: url('/assets/specials/specials-spring.jpg');
+  background-image: url('/assets/specials-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 30px;
@@ -12,19 +12,20 @@
     &__title {
       margin-bottom: 5px;
       line-height: 1;
-      color: #1d5575;
-      font-weight: 700;
-      font-style: italic;
+      color: #fff;
     }
 
     &__sub-title {
-      color: #000;
+      color: #fff;
+      font-size: 14px;
       font-style: italic;
       margin-bottom: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
     &__byline {
-      color: #f05423;
+      color: #fff603;
       font-weight: 700;
       line-height: 1;
       margin-bottom: 5px;
@@ -47,7 +48,8 @@
   }
 
   .specials-card {
-    background: linear-gradient(rgba(255, 255, 255, 0) 50%, #fff 50%);
+    //background: linear-gradient(rgba(255, 255, 255, 0) 50%, #fff 50%);
+    background-color: rgba(255, 255, 255, 0.85);
     text-align: center;
     width: 30%;
     position: relative;
@@ -61,8 +63,7 @@
     }
 
     &__bottom {
-      background-color: #fff;
-      margin-top: 5px;
+      margin-top: 0;
       padding-top: 80px;
       padding-left: 20px;
       padding-right: 20px;
@@ -81,8 +82,8 @@
       border: solid 4px white;
       border-radius: 50%;
       color: white;
-      font-weight: 900;
-      font-family: $ff-lato;
+      font-weight: 700;
+      font-family: $ff-open;
       font-size: 84px;
       font-style: normal;
       letter-spacing: -3.22px;
@@ -99,29 +100,28 @@
     }
 
     &__savings {
+      margin-top: 5px;
       font-family: $ff-lato;
     }
 
     &__title {
-      font-family: $ff-lato;
+      font-family: $ff-roboto-condensed;
       color: #fff;
       font-weight: 700;
       line-height: 1.1;
       margin-bottom: 10px;
-
-      &::first-line {
-        font-weight: 100;
-      }
     }
 
     &__copy {
-      color: #424242;
+      color: #000;
+      font-family: $ff-lato;
       line-height: 1.4;
       margin-bottom: 70px;
       font-size: 17px;
     }
 
     &__codes {
+      color: #575757;
       font-size: 14px;
       margin-bottom: 35px;
       position: absolute;
