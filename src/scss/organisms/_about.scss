@@ -1,4 +1,4 @@
-.about {
+#section-about {
   background-image: url(/assets/bio-bg-diag.jpg);
   background-repeat: repeat;
 
@@ -53,6 +53,18 @@
     &__copy {
       color: #393939;
       font-size: 16px;
+    }
+  }
+
+  .full-width-carousel-arrows {
+    position: relative;
+
+    .container {
+      position: static;
+    }
+
+    .owl-carousel {
+      position: static;
     }
   }
 }

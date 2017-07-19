@@ -35,14 +35,15 @@
     margin: 40,
     slideBy: 1,
     responsive: {
-      768: {
+      550: {
         items: 3
       },
       992: {
         items: 4
       },
       1200: {
-        items: 5
+        items: 5,
+        autoplay: false
       }
     }
   });
@@ -50,8 +51,8 @@
     items: 1,
     autoplay: true,
     navText: [
-      '<img src="assets/team-left-arrow.png">',
-      '<img src="assets/team-right-arrow.png">'
+      '<img src="assets/arrow-left.png">',
+      '<img src="assets/right-arrow.png">'
     ],
     responsive: {
       550: {
