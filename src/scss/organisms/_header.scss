@@ -1,6 +1,6 @@
 #header.full-header {
 
-  $c-header: #fff;
+  $c-header: #244384;
   $c-menu-trigger: #444;
   $nav-font: $ff-open;
 
@@ -37,7 +37,7 @@
     background-color: $c-header;
     background-image: url(/assets/header-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-bottom: #fdf155 2px solid;
 
     @media screen and (max-width: $width-md) {
