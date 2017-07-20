@@ -1,151 +1,52 @@
 #section-services {
   .heading {
+    background-color: #ddf2fe;
     text-align: center;
 
     &__title {
-      color: #1e5879;
+      color: #384e79;
       padding-top: $spacing-md;
-      font-style: italic;
       margin-bottom: 5px;
       line-height: 1;
     }
 
-    &__byline {
-      color: #f16032;
-      margin-bottom: 30px;
-      font-weight: 700;
-      font-style: italic;
+    &__copy {
+      color: #3e3e3e;
+      margin-top: 20px;
+      margin-bottom: 45px;
 
       a {
-        color: #fff;
+        color: #3e3e3e;
         text-decoration: underline;
       }
     }
   }
 
-  .slab-mobile-image {
-    margin-top: -80px;
-  }
+  .services-slide {
+    position: relative;
 
-  .smile-slab {
-    &__card {
-      padding-top: 30px;
-      padding-bottom: 20px;
+    &__text {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    &__text--two {
+      .services-slide__copy {
+        margin-top: 95px;
+      }
     }
 
     &__title {
-      color: #1d5575;
-      margin-bottom: 5px;
-      font-style: normal;
+      color: #183163;
     }
 
     &__copy {
       color: #000;
-      line-height: 1.3;
-    }
-
-    @media (min-width: 768px) {
-      background-image: url('/assets/services/smile-makeovers.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: right -160px top;
-
-      &__card {
-        padding-bottom: 200px;
-      }
-    }
-
-    @media (min-width: 1200px) {
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: bottom right;
-
-      &__card {
-        padding-bottom: 260px;
-      }
-    }
-  }
-
-  .implant-slab {
-    .flex-wrapper {
-      display: flex;
-      flex-direction: column;
-      padding-top: 30px;
-    }
-
-    .image {
-      order: 1;
-      display: none;
-    }
-
-    &__mobile-image {
-      width: 55%;
-      float: left;
-      padding-right: 30px;
-      padding-top: 5px;
-    }
-
-    .copy__title {
-      color: #1d5575;
-      font-style: normal;
-      line-height: 1;
-      margin-bottom: 10px;
-    }
-
-    li {
-      font-weight: 700;
-      font-size: 18px;
-      margin-bottom: 10px;
-      margin-left: 10px;
-    }
-
-    @media (min-width: 768px) {
-      .flex-wrapper {
-        display: block;
-      }
-
-      .image {
-        display: inline-block;
-        float: left;
-        width: 230px;
-        padding-right: 20px;
-      }
-
-      &__mobile-image {
-        display: none;
-      }
-
-      li {
-        margin-right: 25px;
-      }
-
-      ul {
-        margin-bottom: 0;
-      }
-    }
-
-    @media (min-width: 992px) {
-      .image {
-        padding-right: 50px;
-        width: 300px;
-      }
-    }
-
-    @media (min-width: 1200px) {
-      .image {
-        padding-right: 60px;
-        width: 350px;
-      }
-    }
-  }
-
-  .implant__additional-text {
-    font-style: italic;
-    padding-bottom: 30px;
-
-    @media (min-width: 768px) {
-      clear: both;
-      padding-top: 10px;
     }
   }
 }

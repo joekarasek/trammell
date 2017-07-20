@@ -22,6 +22,15 @@
     ],
     autoHeight: true
   });
+  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel', {
+    items: 1,
+    margin: 40,
+    navText: [
+      '<img src="assets/arrow-left.png">',
+      '<img src="assets/right-arrow.png">'
+    ],
+    autoHeight: true
+  });
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
     items: 2,
     loop: true,
