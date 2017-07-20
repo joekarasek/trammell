@@ -8,8 +8,8 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
                         <h2 class="modal-title">{{ service.titleFull }}</h2>
                     </div>
-                    <div class="modal-body">
-                        {#{% if service.image %}<div class="modal-image hidden-xs hidden-sm"><img src="assets/services-grid/{{ service.image }}" alt="quality services from {{ mainDoctor }}"></div>{% endif %}#}
+                    <div class="modal-body clearfix">
+                        {% if service.image %}<div class="modal-image hidden-xs hidden-sm"><img src="assets/services/{{ service.image }}" alt="{{ service.titleFull }}"></div>{% endif %}
                         {#{% if service.imageSpecial %}<div class="modal-image hidden-xs hidden-sm"><img src="assets/services/{{ service.imageSpecial }}" alt="{{ service.titleFull }}"></div>{% endif %}#}
                         {% for paragraph in service.text %}
                             <p>{{ paragraph }}</p>
