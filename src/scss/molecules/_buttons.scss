@@ -34,14 +34,16 @@ button.btn {
   }
 
   &.btn--style-three {
-    background-color: rgba(255, 255, 255, 0);
-    color: #1e5879;
-    border-color: #1e5879;
+    background-image: none;
+    background-color: #2a4d92;
+    color: #fff;
+    border-color: #183163;
+    //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
     &:hover,
     &:focus {
-      //background-color: darken(#9ed5af, 15%);
-      //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
+      background-color: darken(#f06123, 15%);
+      //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.d46);
     }
   }
 
