@@ -43,10 +43,32 @@
 
     &__title {
       color: #183163;
+      padding-left: 30px;
+      margin-bottom: 10px;
     }
 
     &__copy {
       color: #000;
+      padding-left: 30px;
+      line-height: 1.4;
+      font-size: 16px;
+
+      @media (min-width: 992px) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .services-slide-mobile {
+    &__title {
+      color: #183163;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    &__copy {
+      color: #000;
+      margin-bottom: 50px;
     }
   }
 }
