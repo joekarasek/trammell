@@ -1,8 +1,8 @@
 //Overrides for Canvas
 #footer {
   position: relative;
-  background-color: #00659e;
-  border-top: none;
+  background-color: #183163;
+  border-top: solid 4px #96cb43;
 
   a {
     @include link-color(#fff);
