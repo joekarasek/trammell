@@ -1,8 +1,7 @@
 #section-reviews {
-  background-image: url('/assets/reviews-bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
+  background-image: url('/assets/review-bg-diag.jpg');
+  background-size: auto;
+  background-repeat: repeat;
   padding-bottom: 45px;
 
   .heading {
@@ -10,14 +9,34 @@
     text-align: center;
     margin-top: $spacing-md;
     margin-bottom: 30px;
-    color: #0c344a;
-    font-style: italic;
-    font-weight: 700;
+    color: #fff603;
     text-shadow: 0 2px 4px rgba(230, 236, 255, 0.71);
   }
 
+  .review-image {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .row--flexed {
+    @media (min-width: 768px) {
+      display: flex;
+
+      [id^="bf-revz-widget-"] {
+        height: 100%;
+      }
+
+      iframe {
+        height: 100%;
+      }
+    }
+  }
+
   .review-wrapper > div:last-child {
-    max-height: 600px;
+    //max-height: 600px;
   }
 
   .mobile-image img {
