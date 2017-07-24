@@ -31,6 +31,54 @@
     ],
     autoHeight: true
   });
+  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--two', {
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 500,
+    autoplayTimeout: 2000,
+    autoplayHoverPause:false,
+    autoWidth: false,
+    navText: [
+      '<img src="assets/arrow-left.png">',
+      '<img src="assets/right-arrow.png">'
+    ],
+    dots: false,
+    margin: 40,
+    slideBy: 1,
+    responsive: {
+      768: {
+        items: 2
+      },
+      992: {
+        items: 3
+      }
+    }
+  });
+  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--two--mobile', {
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 500,
+    autoplayTimeout: 2000,
+    autoplayHoverPause:false,
+    autoWidth: false,
+    navText: [
+      '<img src="assets/arrow-left.png">',
+      '<img src="assets/right-arrow.png">'
+    ],
+    dots: false,
+    margin: 40,
+    slideBy: 1,
+    responsive: {
+      768: {
+        items: 2
+      },
+      992: {
+        items: 3
+      }
+    }
+  });
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
     items: 2,
     loop: true,

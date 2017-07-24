@@ -36,6 +36,13 @@ joesGulpTasks(gulp, config, tasks);
 //         });
 //         tasks.default.push('myTask');
 //
+var purify = require('gulp-purifycss');
+
+gulp.task('purifycss', function() {
+  return gulp.src('./build/css/styles.css')
+      .pipe(purify(['./build/js/*.js', './build/*.html']))
+      .pipe(gulp.dest('./build/css'));
+});
 // See the readme for further instructions on adding your own commands.
 
 // Add custom tasks here
