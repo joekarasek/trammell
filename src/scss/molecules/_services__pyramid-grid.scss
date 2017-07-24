@@ -15,6 +15,7 @@
 
   //Styling for title over bottom of card
   .service-card {
+    width: 100%;
     display: block;
     text-align: center;
     position: relative;
@@ -64,10 +65,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    .service-card {
-      padding-right: 20px;
-    }
-
     .service-card:hover {
       .service-card__image-link {
         @include hover-plus();

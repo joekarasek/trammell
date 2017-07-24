@@ -71,4 +71,16 @@
       margin-bottom: 50px;
     }
   }
+
+  .full-width-carousel-arrows {
+    position: relative;
+
+    .container {
+      position: static;
+    }
+
+    .owl-carousel {
+      position: static;
+    }
+  }
 }

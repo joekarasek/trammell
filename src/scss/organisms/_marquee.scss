@@ -56,6 +56,12 @@
     //}
     text-align: right;
 
+    @media (max-width: 1199px) {
+      img {
+        max-width: 460px;
+      }
+    }
+
     .slide__copy {
       color: #183163;
       padding-top: 40px;
